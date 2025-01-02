@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Checkout Page</title>
+</head>
+
+<body>
+    <h1>Checkout</h1>
+    <!-- Cart Section -->
+    <section>
+        <h2>Your Cart</h2>
+        <img src="https://i.pinimg.com/736x/08/42/27/084227c426f6fc6a4ee4a4bf7a6d258f.jpg" alt="Start Programming with the Electron Book" />
+        <p>£3.00</p>
+        </section>
+    <!-- Payment Information Section -->
+    <section>
+        <h2>Payment Information</h2>
+        <form>
+            <label for="card-name">Cardholder Name (Required)</label>
+            <input type="text" id="card-name" name="card-name" aria-required="true" required />
+            <label for="card-number">Card Number (Required)</label>
+            <input type="number" id="card-number" name="card-number" aria-required="true" required />
+            <label for="card-expirydate">Expiry Date (Required)</label>
+            <input type="text" id="card-expirydate" name="card-expirydate" placeholder="MM/YY" aria-required="true" required />
+            <label for="card-cvv">CVV (Required)</label>
+            <input type="number" id="card-cvv" name="card-cvv" aria-required="true" required />
+            <button type="submit" value="Place Order">Place Order</button>
+            </form>
+        </section>
+</body>
+
+</html>
